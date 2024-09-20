@@ -1,0 +1,36 @@
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Estilos para todos los párrafos */
+  p {
+    color: #555;
+  }
+  
+  /* Estilos específicos para párrafos dentro del div con id "primero" */
+  #primero p {
+    color: #369;
+  }
+  
+  /* Estilos para todos los enlaces */
+  a {
+    color: #C30;
+  }
+  
+  /* Estilos para elementos em dentro del div con id "primero" */
+  #primero em {
+    color: #0000BB;
+    background-color: #FFFFCC;
+  }
+  
+  /* Estilos para elementos em con la clase "especial" en cualquier parte de la página */
+  .especial {
+    color: #FFFF00;
+    background: #000000;
+  }
+  
+  /* Estilos para elementos span dentro de elementos con la clase "normal" */
+  .normal span {
+    font-weight: bold;
+  }
